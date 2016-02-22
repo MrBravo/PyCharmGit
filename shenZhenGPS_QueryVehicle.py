@@ -18,8 +18,8 @@ class MyTest(unittest.TestCase):
 		except:
 			print('登录失败!')
 		else:
-			#print('登录成功!')
-			pass
+			print('登录成功!')
+			#pass
 
 	#------------------ 查询车辆 ----------------
 	def testQueryAllVehicle(self):
